@@ -24,6 +24,5 @@ class MediaRecorder extends rtc.MediaRecorder {
         stream,
         onDataChunk: onDataChunk,
         mimeType: mimeType ?? 'video/webm',
-        timeSlice: timeSlice,
       );
 }
